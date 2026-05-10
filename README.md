@@ -22,7 +22,8 @@ Krok 2
 Otwórz terminal (lub terminal w VS Code), wejdź do folderu, w którym trzymasz projekty, i wpisz
 
 git clone https://github.com/projekcik-testy/repo-conflict-testing.git
-cd testing-fork
+
+cd repo-conflict-testing
 
 
 Krok 3
@@ -41,9 +42,13 @@ git pull origin main
 3. Stwórz nową gałąź:
 git checkout -b nowa-galaz
 4. Pisz kod, ucz się, baw
-5. Zapisz i wyślij swoje zmiany
+
+   
+6. Zapisz i wyślij swoje zmiany
 git add .
+
 git commit -m "Dodano nowy notatnik - cokolwiek piszesz"
+
 git push -u origin nazwa-twojej-galezi albo main
 
 W tym repozytorium "akceptem" jest po prostu to, że Git technicznie pozwoli Ci wysłać kod. Jeśli dwie osoby wejdą sobie w drogę, Git ich zatrzyma błędem w terminalu
@@ -51,7 +56,9 @@ W tym repozytorium "akceptem" jest po prostu to, że Git technicznie pozwoli Ci 
 KOnfilkty procedura:
 
 Zrobić git pull origin main – Git pobierze zmiany kogos i spróba je połączyć z Twoimi.
+
 Zobaczyć "Conflict" w pliku – Jeśli edytowaliście tę samą linijkę, Git nie będzie wiedział, którą zostawić. W VS Code plik zrobi się kolorowy (fioletowo-niebieski) i pojawią się przyciski:
+
 Accept Current Change (zostaw moje)
 Accept Incoming Change (zostaw kogos)
 Accept Both (zostaw oba)

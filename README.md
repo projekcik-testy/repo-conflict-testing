@@ -28,7 +28,7 @@ uv sync
 
 Krok 4 Współpraca
 
-Zasada numer 1: Nigdy nie pracujemy bezpośrednio na gałęzi main!
+
 
 Za każdym razem, gdy chcesz dodać nowy model, analizę lub plik, wykonuj te kroki:
 1. Zaktualizuj swój kod (żeby mieć to, co zrobili inni):

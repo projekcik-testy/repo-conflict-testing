@@ -21,7 +21,7 @@ Krok 2
 
 Otwórz terminal (lub terminal w VS Code), wejdź do folderu, w którym trzymasz projekty, i wpisz
 
-git clone https://github.com/projekcik-testy/testing-fork.git
+git clone https://github.com/projekcik-testy/repo-conflict-testing.git
 cd testing-fork
 
 

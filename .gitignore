@@ -1,0 +1,17 @@
+# Biblioteki i środowisko
+.venv/
+venv/
+env/
+
+# Śmieci z Maca
+.DS_Store
+
+# Śmieci z Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki konfiguracyjne i Jupyter
+.vscode/
+.idea/
+.ipynb_checkpoints/
